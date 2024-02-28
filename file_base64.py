@@ -17,7 +17,6 @@ def base64_decode(filename):
     file.close()
     print(result)
 
-
 num = int(input("1.base64 encodig\n2.base64 decoding\n"))
 filename = input("파일 이름 입력:\n")
 if (num == 1):
